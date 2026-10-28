@@ -1,0 +1,10 @@
+# Python dependencies for Real-Time Traffic Incident Streaming System
+#
+# Install with:
+#   python -m pip install -r requirements.txt
+#
+# Note: The project also requires Apache Kafka and a compatible Java runtime
+# to be installed and started separately. SQLite is included with standard Python.
+
+Flask>=3.1,<4.0
+kafka-python-ng>=2.2,<3.0
